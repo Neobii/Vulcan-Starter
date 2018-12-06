@@ -157,6 +157,8 @@ const schema = {
     canUpdate: ['members'],
     canCreate: ['members'],
     group: addressGroup,
+    minCount: 1,
+    maxCount: 2
   },
 
   'addresses.$': {
